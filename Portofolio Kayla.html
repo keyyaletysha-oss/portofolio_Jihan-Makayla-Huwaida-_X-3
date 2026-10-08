@@ -1,0 +1,416 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#faf9f5;color:#141413}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Portofolio Kayla</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --pink:#ff9ec4; --pink-soft:#ffe3ef; --pink-deep:#e8588f;
+  --blue:#6ec6ff; --blue-soft:#e0f4ff; --blue-deep:#2a7fc0;
+  --sand:#fff6ea; --ink:#2b3a55;
+  color-scheme:light;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{min-height:100vh;font-family:'Poppins',system-ui,-apple-system,'Segoe UI',sans-serif;color:var(--ink);background:linear-gradient(180deg,var(--blue-soft),var(--pink-soft) 45%,var(--sand));line-height:1.7}
+h1,h2,h3{font-family:'Playfair Display',Georgia,'Times New Roman',serif;text-wrap:balance}
+a{color:inherit;text-decoration:none}
+nav{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.75);backdrop-filter:blur(10px);display:flex;justify-content:center;flex-wrap:wrap;gap:6px 22px;padding:12px 16px;border-bottom:1px solid #fff}
+nav a{font-size:.88rem;font-weight:500;color:var(--blue-deep);padding:2px 4px;border-bottom:2px solid transparent}
+nav a:hover{color:var(--pink-deep);border-color:var(--pink)}
+.hero{position:relative;overflow:hidden;text-align:center;padding:90px 20px 150px;background:linear-gradient(180deg,#8fd3ff 0%,#c9e8ff 35%,#ffc4dc 75%,#ffe3ef 100%)}
+.sun{position:absolute;left:50%;bottom:90px;width:150px;height:150px;margin-left:-75px;border-radius:50%;background:radial-gradient(circle,#fff7c9,#ffd1e3 70%);box-shadow:0 0 80px 30px rgba(255,200,225,.7)}
+.hero .waves{position:absolute;left:0;bottom:0;width:100%;height:150px}
+.hero-inner{position:relative;z-index:2}
+.badge{display:inline-block;background:rgba(255,255,255,.7);color:var(--pink-deep);padding:4px 16px;border-radius:30px;font-size:.85rem;font-weight:500;margin-bottom:16px}
+.hero h1{font-size:clamp(2.4rem,8vw,4.2rem);color:#fff;text-shadow:0 3px 14px rgba(42,127,192,.45);line-height:1.15}
+.hero p{max-width:520px;margin:14px auto 0;color:#25507a;font-size:1.02rem}
+.btns{margin-top:26px;display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.btn{padding:11px 26px;border-radius:30px;font-weight:500;font-size:.92rem;transition:.25s}
+.btn.p{background:var(--pink-deep);color:#fff;box-shadow:0 6px 18px rgba(232,88,143,.4)}
+.btn.s{background:#fff;color:var(--blue-deep)}
+.btn:hover{transform:translateY(-3px)}
+section{max-width:980px;margin:0 auto;padding:64px 20px 10px}
+.title{text-align:center;margin-bottom:34px}
+.title h2{font-size:2rem;color:var(--blue-deep)}
+.title h2::after{content:"";display:block;width:70px;height:4px;border-radius:4px;margin:8px auto 0;background:linear-gradient(90deg,var(--pink),var(--blue))}
+.title p{color:#6a7a96;font-size:.92rem;margin-top:10px}
+.card{background:rgba(255,255,255,.85);border-radius:22px;padding:24px;box-shadow:0 8px 28px rgba(110,198,255,.22);border:1px solid #fff}
+.about{display:grid;gap:22px}
+@media(min-width:760px){.about{grid-template-columns:1.2fr 1fr}}
+.about p{margin-bottom:12px}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.fact{background:linear-gradient(135deg,var(--pink-soft),var(--blue-soft));border-radius:16px;padding:12px 14px}
+.fact small{display:block;color:#7a8aa6;font-size:.72rem;text-transform:uppercase;letter-spacing:.06em}
+.fact b{font-size:.95rem;color:var(--ink)}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(180px,1fr))}
+.skill{text-align:center;padding:22px 14px}
+.skill .ic{font-size:2.1rem}
+.skill h3{font-size:1.05rem;margin:6px 0 4px;color:var(--pink-deep)}
+.skill p{font-size:.84rem;color:#5d6d89}
+.tags{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.tag{background:#fff;border:2px solid var(--pink);color:var(--pink-deep);padding:7px 18px;border-radius:30px;font-size:.9rem}
+.tag.b{border-color:var(--blue);color:var(--blue-deep)}
+.timeline{position:relative;max-width:640px;margin:auto;padding-left:26px;border-left:3px dashed var(--blue)}
+.tl{position:relative;margin-bottom:18px}
+.tl::before{content:"";position:absolute;left:-36px;top:20px;width:16px;height:16px;border-radius:50%;background:var(--pink);border:3px solid #fff}
+.tl h3{font-size:1.1rem;color:var(--blue-deep)}
+.tl span{font-size:.8rem;background:var(--pink-soft);color:var(--pink-deep);padding:2px 12px;border-radius:20px}
+.gallery{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.photo{position:relative;border-radius:22px;overflow:hidden;aspect-ratio:4/3;box-shadow:0 8px 24px rgba(42,127,192,.25);transition:.3s}
+.photo:hover{transform:scale(1.03) rotate(-.6deg)}
+.photo svg,.photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.photo figcaption{position:absolute;left:0;right:0;bottom:0;padding:26px 16px 12px;color:#fff;font-size:.9rem;font-weight:500;background:linear-gradient(transparent,rgba(30,60,110,.6))}
+
+.works{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.work{padding:0;overflow:hidden;display:flex;flex-direction:column;min-width:0;transition:.3s}
+.work:hover{transform:translateY(-5px)}
+.work svg{display:block;width:100%;aspect-ratio:4/3;height:auto}
+.work .wb{padding:16px 20px 20px;display:flex;flex-direction:column;gap:6px}
+.work h3{font-size:1.1rem;color:var(--blue-deep)}
+.work .m{align-self:flex-start;font-size:.72rem;font-weight:500;letter-spacing:.05em;text-transform:uppercase;background:var(--pink-soft);color:var(--pink-deep);padding:2px 12px;border-radius:20px}
+.work p{font-size:.86rem;color:#5d6d89}
+.note{text-align:center;font-size:.8rem;color:#7a8aa6;margin-top:14px}
+.tabs{display:flex;gap:10px;justify-content:center;margin-bottom:20px}
+.tab{border:none;cursor:pointer;font-family:inherit;font-weight:500;padding:9px 24px;border-radius:30px;background:#fff;color:var(--blue-deep);font-size:.9rem}
+.tab.on{background:linear-gradient(90deg,var(--pink),var(--blue));color:#fff}
+.dlist{display:grid;gap:10px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.d{background:rgba(255,255,255,.9);border-radius:16px;padding:12px 16px;border-left:5px solid var(--pink)}
+.d.k{border-left-color:var(--blue)}
+.d b{display:block;font-size:.95rem}
+.d small{color:#6a7a96;font-size:.8rem}
+.d .r{float:right;background:var(--pink-deep);color:#fff;font-size:.72rem;padding:1px 10px;border-radius:12px;margin-left:8px}
+.d .e{display:inline-block;margin-top:2px;font-size:.72rem;background:var(--blue-soft);color:var(--blue-deep);padding:0 8px;border-radius:10px}
+.fav{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));margin-bottom:22px}
+.fav .card{text-align:center;padding:16px}
+.fav .card b{color:var(--pink-deep);font-size:1.5rem;display:block}
+.contact{display:grid;gap:12px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.contact a{display:block;padding:16px 18px;background:#fff;border-radius:18px;box-shadow:0 6px 18px rgba(255,158,196,.28);transition:.25s}
+.contact a:hover{transform:translateY(-4px)}
+.contact .cp{padding:16px 18px;background:#fff;border-radius:18px;box-shadow:0 6px 18px rgba(255,158,196,.28);min-width:0}
+.contact .cp b{display:block;user-select:all}
+.copy{margin-top:8px;border:none;cursor:pointer;font-family:inherit;font-size:.78rem;font-weight:500;padding:4px 16px;border-radius:20px;background:var(--pink-soft);color:var(--pink-deep)}
+.copy:focus-visible,.tab:focus-visible,a:focus-visible{outline:3px solid var(--blue-deep);outline-offset:2px}
+@media(prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+.contact small{display:block;color:#7a8aa6;font-size:.72rem;text-transform:uppercase;letter-spacing:.06em}
+.contact b{color:var(--blue-deep);font-size:.95rem;word-break:break-all}
+footer{margin-top:70px;text-align:center;padding:36px 20px;background:linear-gradient(90deg,var(--pink),var(--blue));color:#fff;font-size:.9rem}
+</style>
+
+<nav>
+  <a href="#tentang">Tentang</a><a href="#bakat">Bakat</a><a href="#karya">Karya</a><a href="#pengalaman">Pengalaman</a>
+  <a href="#galeri">Galeri</a><a href="#drachin">Drachin</a><a href="#kontak">Kontak</a>
+</nav>
+
+<header class="hero">
+  <div class="sun"></div>
+  <div class="hero-inner">
+    <span class="badge">🌸 Selamat datang di duniaku 🌊</span>
+    <h1>Halo, aku Kayla</h1>
+    <p>Jihan Makayla Huwaida. Perempuan kreatif yang suka berkarya dengan tangan, jatuh cinta pada pantai, dan tidak pernah bosan dengan dessert manis.</p>
+    <div class="btns">
+      <a class="btn p" href="#tentang">Kenalan yuk</a>
+      <a class="btn s" href="#kontak">Hubungi aku</a>
+    </div>
+  </div>
+  <svg class="waves" viewBox="0 0 1440 150" preserveAspectRatio="none">
+    <path d="M0,70 C240,20 480,120 720,70 C960,20 1200,120 1440,70 L1440,150 L0,150Z" fill="#8fd3ff" opacity=".6"/>
+    <path d="M0,95 C260,50 520,130 780,90 C1040,50 1240,120 1440,90 L1440,150 L0,150Z" fill="#ffb3d1" opacity=".75"/>
+    <path d="M0,120 C300,85 560,145 820,115 C1080,85 1260,140 1440,118 L1440,150 L0,150Z" fill="#ffe3ef"/>
+  </svg>
+</header>
+
+<section id="tentang">
+  <div class="title"><h2>Tentang Aku</h2></div>
+  <div class="about">
+    <div class="card">
+      <p>Aku <b>Jihan Makayla Huwaida</b>, tapi teman-teman biasa memanggilku <b>Kayla</b>. Aku tipe yang suka punya rencana, berani mengambil keputusan, dan senang memimpin. Itu sebabnya kepribadianku sering disebut <b>ENTJ</b>.</p>
+      <p>Di sela-sela kesibukan, aku menyalurkan energi lewat seni dan kerajinan tangan. Mulai dari melukis, merajut, menyulam, sampai membuat kue. Kalau butuh istirahat, aku pergi ke pantai atau nonton drama China sambil makan dessert dan minum susu Cimory.</p>
+      <p>Aku juga pernah merasakan latihan kedisiplinan di lingkungan militer. Pengalaman itu membuatku lebih tangguh, tepat waktu, dan tidak mudah menyerah.</p>
+    </div>
+    <div class="facts">
+      <div class="fact"><small>Nama lengkap</small><b>Jihan Makayla Huwaida</b></div>
+      <div class="fact"><small>Panggilan</small><b>Kayla</b></div>
+      <div class="fact"><small>MBTI</small><b>ENTJ</b></div>
+      <div class="fact"><small>Zodiak</small><b>♊ Gemini</b></div>
+      <div class="fact"><small>Shio</small><b>🐯 Harimau</b></div>
+      <div class="fact"><small>Golongan darah</small><b>A</b></div>
+      <div class="fact"><small>Lahir hari</small><b>Senin</b></div>
+      <div class="fact"><small>Tempat favorit</small><b>🏖️ Pantai</b></div>
+    </div>
+  </div>
+</section>
+
+<section id="bakat">
+  <div class="title"><h2>Bakat &amp; Keahlian</h2><p>Hal-hal yang bisa kulakukan dengan sepenuh hati</p></div>
+  <div class="grid">
+    <div class="card skill"><div class="ic">🎨</div><h3>Melukis</h3><p>Pernah melukis di kanvas, kertas, bahkan dinding.</p></div>
+    <div class="card skill"><div class="ic">🧶</div><h3>Merajut</h3><p>Mengubah benang jadi karya hangat dan lucu.</p></div>
+    <div class="card skill"><div class="ic">🪡</div><h3>Menyulam</h3><p>Detail kecil yang dijahit dengan sabar.</p></div>
+    <div class="card skill"><div class="ic">🧵</div><h3>Menjahit</h3><p>Dari ide di kepala menjadi sesuatu yang bisa dipakai.</p></div>
+    <div class="card skill"><div class="ic">🧁</div><h3>Membuat Kue</h3><p>Pintar bikin kue yang cantik dan enak.</p></div>
+    <div class="card skill"><div class="ic">🈶</div><h3>Bahasa Mandarin</h3><p>Menguasai Mandarin tingkat dasar.</p></div>
+  </div>
+</section>
+
+<section id="karya">
+  <div class="title"><h2>Karya &amp; Proyek</h2><p>Hasil tangan yang pernah kubuat, dari kanvas sampai dapur</p></div>
+  <div class="works">
+
+    <article class="card work">
+      <svg viewBox="0 0 400 300" role="img" aria-label="Ilustrasi lukisan di kanvas"><defs><linearGradient id="w1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fd3ff"/><stop offset=".65" stop-color="#ffb3d1"/><stop offset="1" stop-color="#ffe3c4"/></linearGradient></defs>
+      <rect width="400" height="300" fill="#e0f4ff"/><rect x="100" y="36" width="200" height="228" rx="4" fill="#fff" stroke="#c58b64" stroke-width="8"/>
+      <rect x="110" y="46" width="180" height="208" fill="url(#w1)"/><circle cx="200" cy="140" r="30" fill="#fff3c9"/>
+      <path d="M110 170 Q155 155 200 170 T290 168 V254 H110Z" fill="#6ec6ff"/><path d="M110 205 Q155 190 200 206 T290 204 V254 H110Z" fill="#3aa0e0"/>
+      <path d="M110 238 Q155 228 200 240 T290 236 V254 H110Z" fill="#fff"/></svg>
+      <div class="wb"><span class="m">Lukis</span><h3>Lukisan di Kanvas</h3><p>Lukisan bernuansa laut dan langit senja dengan sapuan warna pink dan biru yang lembut.</p></div>
+    </article>
+
+    <article class="card work">
+      <svg viewBox="0 0 400 300" role="img" aria-label="Ilustrasi lukisan dinding"><rect width="400" height="300" fill="#ffd5e6"/>
+      <g stroke="#f5b3cc" stroke-width="2"><path d="M0 50H400M0 100H400M0 150H400M0 200H400M0 250H400"/><path d="M80 0V50M240 0V50M160 50V100M320 50V100M80 100V150M240 100V150M160 150V200M320 150V200M80 200V250M240 200V250"/></g>
+      <path d="M200 270 V170 M140 270 Q150 200 120 160 M260 270 Q250 205 285 150" stroke="#3aa876" stroke-width="6" fill="none" stroke-linecap="round"/>
+      <circle cx="200" cy="150" r="30" fill="#ff7fb1"/><circle cx="200" cy="150" r="11" fill="#fff3c9"/>
+      <circle cx="118" cy="146" r="22" fill="#6ec6ff"/><circle cx="118" cy="146" r="8" fill="#fff"/>
+      <circle cx="288" cy="136" r="24" fill="#8fd3ff"/><circle cx="288" cy="136" r="9" fill="#fff3c9"/></svg>
+      <div class="wb"><span class="m">Mural</span><h3>Lukisan di Dinding</h3><p>Bunga-bunga besar yang kulukis langsung di dinding untuk mengubah ruangan jadi lebih hidup.</p></div>
+    </article>
+
+    <article class="card work">
+      <svg viewBox="0 0 400 300" role="img" aria-label="Ilustrasi lukisan di kertas"><rect width="400" height="300" fill="#e0f4ff"/>
+      <g transform="rotate(-4 200 150)"><rect x="90" y="40" width="220" height="220" fill="#fffdf8" stroke="#f0d9c0" stroke-width="2"/>
+      <circle cx="240" cy="100" r="22" fill="#ffd1e3"/><path d="M110 190 Q150 165 190 190 T270 188 T300 186" stroke="#3aa0e0" stroke-width="6" fill="none"/>
+      <path d="M110 215 Q150 190 190 215 T270 213 T300 211" stroke="#8fd3ff" stroke-width="6" fill="none"/>
+      <path d="M130 130 Q160 100 190 130" stroke="#ff9ec4" stroke-width="5" fill="none" stroke-linecap="round"/></g>
+      <rect x="290" y="210" width="12" height="70" rx="3" transform="rotate(35 296 245)" fill="#ff9ec4"/></svg>
+      <div class="wb"><span class="m">Lukis</span><h3>Lukisan di Kertas</h3><p>Sketsa dan lukisan kecil di atas kertas, tempat aku mencoba warna dan ide baru.</p></div>
+    </article>
+
+    <article class="card work">
+      <svg viewBox="0 0 400 300" role="img" aria-label="Ilustrasi gulungan benang rajut"><rect width="400" height="300" fill="#ffe3ef"/>
+      <circle cx="190" cy="160" r="82" fill="#ff9ec4"/>
+      <g stroke="#ffd1e3" stroke-width="5" fill="none" stroke-linecap="round"><path d="M125 130 Q190 90 255 135"/><path d="M112 160 Q190 120 268 165"/><path d="M118 192 Q190 150 262 197"/><path d="M135 222 Q190 185 245 225"/></g>
+      <path d="M262 190 Q330 215 340 262" stroke="#ff9ec4" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M90 60 L300 250 M310 60 L120 250" stroke="#8fd3ff" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="90" cy="60" r="8" fill="#2a7fc0"/><circle cx="310" cy="60" r="8" fill="#2a7fc0"/></svg>
+      <div class="wb"><span class="m">Rajut</span><h3>Karya Rajut</h3><p>Rajutan dari benang lembut berwarna pastel, dikerjakan satu per satu dengan sabar.</p></div>
+    </article>
+
+    <article class="card work">
+      <svg viewBox="0 0 400 300" role="img" aria-label="Ilustrasi sulaman bunga dalam hoop"><rect width="400" height="300" fill="#e0f4ff"/>
+      <circle cx="200" cy="150" r="110" fill="#fff6ea" stroke="#c58b64" stroke-width="10"/><rect x="190" y="30" width="20" height="18" rx="3" fill="#a86f4c"/>
+      <g fill="#ff9ec4"><circle cx="200" cy="108" r="24"/><circle cx="238" cy="138" r="24"/><circle cx="224" cy="182" r="24"/><circle cx="176" cy="182" r="24"/><circle cx="162" cy="138" r="24"/></g>
+      <circle cx="200" cy="150" r="18" fill="#fff3c9"/>
+      <path d="M200 205 Q205 235 190 250" stroke="#3aa876" stroke-width="5" fill="none" stroke-linecap="round"/>
+      <path d="M120 200 H140 M260 98 H282 M118 120 H136" stroke="#6ec6ff" stroke-width="4" stroke-dasharray="6 5" stroke-linecap="round"/></svg>
+      <div class="wb"><span class="m">Sulam</span><h3>Sulaman Bunga</h3><p>Sulaman bunga dalam hoop dengan tusuk-tusuk kecil dan warna pink yang manis.</p></div>
+    </article>
+
+    <article class="card work">
+      <svg viewBox="0 0 400 300" role="img" aria-label="Ilustrasi kain dan benang jahit"><rect width="400" height="300" fill="#ffe3ef"/>
+      <path d="M50 90 L350 70 L335 235 L65 250Z" fill="#6ec6ff"/><path d="M62 120 L345 100" stroke="#fff" stroke-width="3" stroke-dasharray="10 8" fill="none"/>
+      <path d="M60 205 L338 188" stroke="#fff" stroke-width="3" stroke-dasharray="10 8" fill="none"/>
+      <g fill="#fff"><circle cx="120" cy="150" r="7"/><circle cx="200" cy="146" r="7"/><circle cx="280" cy="142" r="7"/></g>
+      <rect x="300" y="196" width="50" height="62" rx="8" fill="#ff9ec4"/><rect x="296" y="190" width="58" height="12" rx="5" fill="#e8588f"/><rect x="296" y="252" width="58" height="12" rx="5" fill="#e8588f"/>
+      <path d="M80 270 L200 215" stroke="#c9d3e3" stroke-width="5" stroke-linecap="round"/><circle cx="84" cy="268" r="3" fill="#fff"/>
+      <path d="M200 215 Q240 200 300 225" stroke="#ff9ec4" stroke-width="3" fill="none"/></svg>
+      <div class="wb"><span class="m">Jahit</span><h3>Karya Jahit</h3><p>Berawal dari ide dan kain pilihan, lalu dijahit sampai bisa dipakai.</p></div>
+    </article>
+
+    <article class="card work">
+      <svg viewBox="0 0 400 300" role="img" aria-label="Ilustrasi kue berlapis"><rect width="400" height="300" fill="#e0f4ff"/>
+      <ellipse cx="200" cy="248" rx="140" ry="18" fill="#fff"/><rect x="95" y="190" width="210" height="56" rx="10" fill="#ff9ec4"/>
+      <rect x="110" y="140" width="180" height="52" rx="10" fill="#fff6ea"/><rect x="125" y="92" width="150" height="50" rx="10" fill="#ffc4dc"/>
+      <path d="M125 100 Q140 128 155 100 T185 100 T215 100 T245 100 T275 100" fill="#fff" stroke="#fff" stroke-width="10" stroke-linejoin="round"/>
+      <circle cx="200" cy="82" r="13" fill="#e8588f"/><path d="M200 70 Q208 52 222 48" stroke="#3aa876" stroke-width="4" fill="none" stroke-linecap="round"/>
+      <g fill="#6ec6ff"><circle cx="130" cy="218" r="6"/><circle cx="200" cy="222" r="6"/><circle cx="270" cy="218" r="6"/></g></svg>
+      <div class="wb"><span class="m">Kue &amp; Dessert</span><h3>Kue Buatan Sendiri</h3><p>Kue berlapis dengan dekorasi manis. Kue dan dessert adalah cara favoritku berbagi kebahagiaan.</p></div>
+    </article>
+
+    <article class="card work">
+      <svg viewBox="0 0 400 300" role="img" aria-label="Ilustrasi halaman web portofolio"><defs><linearGradient id="w8" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fd3ff"/><stop offset="1" stop-color="#ffb3d1"/></linearGradient></defs>
+      <rect width="400" height="300" fill="#ffe3ef"/><rect x="50" y="42" width="300" height="216" rx="14" fill="#fff"/>
+      <path d="M50 56 a14 14 0 0 1 14 -14 H336 a14 14 0 0 1 14 14 V70 H50Z" fill="#6ec6ff"/>
+      <circle cx="68" cy="56" r="4" fill="#fff"/><circle cx="82" cy="56" r="4" fill="#fff"/><circle cx="96" cy="56" r="4" fill="#fff"/>
+      <rect x="64" y="84" width="272" height="78" rx="8" fill="url(#w8)"/><circle cx="200" cy="140" r="20" fill="#fff3c9"/>
+      <rect x="64" y="176" width="84" height="66" rx="8" fill="#e0f4ff"/><rect x="158" y="176" width="84" height="66" rx="8" fill="#ffe3ef"/><rect x="252" y="176" width="84" height="66" rx="8" fill="#e0f4ff"/></svg>
+      <div class="wb"><span class="m">Web</span><h3>Portofolio Pribadi</h3><p>Halaman yang sedang kamu baca ini: rumah digital untuk semua karya dan cerita tentangku.</p></div>
+    </article>
+
+  </div>
+</section>
+
+<section>
+  <div class="title"><h2>Hal yang Kusuka</h2></div>
+  <div class="tags">
+    <span class="tag">🏖️ Pantai</span><span class="tag b">🍰 Dessert</span>
+    <span class="tag">🥛 Susu Cimory</span><span class="tag b">🎬 Drama China</span>
+    <span class="tag">🎨 Seni &amp; Kerajinan</span><span class="tag b">🌅 Sunset</span>
+  </div>
+</section>
+
+<section id="pengalaman">
+  <div class="title"><h2>Pengalaman Kedisiplinan</h2><p>Pelatihan yang membentuk mental dan karakterku</p></div>
+  <div class="timeline">
+    <div class="tl card"><h3>Pelatihan Kedisiplinan di Yonif</h3><span>1 kali</span><p style="margin-top:6px;font-size:.88rem">Pertama kali merasakan latihan disiplin ala militer. Dari sini aku belajar tentang ketepatan waktu dan kerja sama.</p></div>
+    <div class="tl card"><h3>Pelatihan Kedisiplinan di Brigif 16 Wira Yudha</h3><span>2 kali</span><p style="margin-top:6px;font-size:.88rem">Mengikuti pelatihan dua kali. Mentalku semakin kuat, dan aku makin terbiasa bertanggung jawab dalam situasi yang menantang.</p></div>
+  </div>
+</section>
+
+<section id="galeri">
+  <div class="title"><h2>Galeri Pantai &amp; Pemandangan</h2><p>Tempat-tempat yang bikin hati tenang</p></div>
+  <div class="gallery">
+
+    <figure class="photo">
+      <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="a1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fd3ff"/><stop offset=".6" stop-color="#ffb3d1"/><stop offset="1" stop-color="#ffe3c4"/></linearGradient></defs>
+      <rect width="400" height="300" fill="url(#a1)"/><circle cx="200" cy="160" r="46" fill="#fff3c9"/>
+      <rect y="170" width="400" height="60" fill="#6ec6ff"/><path d="M0 190 Q50 178 100 190 T200 190 T300 190 T400 190 V230 H0Z" fill="#9fdcff"/>
+      <path d="M0 230 Q100 215 200 232 T400 225 V300 H0Z" fill="#ffe9cf"/></svg>
+      <figcaption>🌅 Senja di tepi pantai</figcaption>
+    </figure>
+
+    <figure class="photo">
+      <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="a2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#bfe8ff"/><stop offset="1" stop-color="#ffe3ef"/></linearGradient></defs>
+      <rect width="400" height="300" fill="url(#a2)"/><rect y="150" width="400" height="80" fill="#4fb9f5"/>
+      <path d="M0 230 Q120 205 240 232 T400 220 V300 H0Z" fill="#ffeecf"/>
+      <path d="M290 235 Q296 170 280 120" stroke="#8a5a44" stroke-width="7" fill="none"/>
+      <path d="M280 120 Q250 100 225 125 M280 120 Q285 85 315 95 M280 120 Q310 105 335 135 M280 120 Q262 92 240 92" stroke="#3aa876" stroke-width="7" fill="none" stroke-linecap="round"/></svg>
+      <figcaption>🌴 Pohon kelapa &amp; laut biru</figcaption>
+    </figure>
+
+    <figure class="photo">
+      <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="a3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9fdcff"/><stop offset="1" stop-color="#ffd5e6"/></linearGradient></defs>
+      <rect width="400" height="300" fill="url(#a3)"/>
+      <path d="M0 200 L90 90 L160 170 L240 70 L340 190 L400 140 V300 H0Z" fill="#7aa7d9"/>
+      <path d="M0 230 L100 150 L200 220 L300 140 L400 220 V300 H0Z" fill="#a98fd1" opacity=".85"/>
+      <rect y="235" width="400" height="65" fill="#6ec6ff" opacity=".85"/></svg>
+      <figcaption>⛰️ Gunung &amp; danau yang tenang</figcaption>
+    </figure>
+
+    <figure class="photo">
+      <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="a4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffc9de"/><stop offset="1" stop-color="#bfe8ff"/></linearGradient></defs>
+      <rect width="400" height="300" fill="url(#a4)"/>
+      <path d="M0 120 Q100 90 200 120 T400 110 V300 H0Z" fill="#8fd3ff"/>
+      <path d="M0 170 Q100 140 200 172 T400 160 V300 H0Z" fill="#5fbff7"/>
+      <path d="M0 225 Q100 195 200 228 T400 215 V300 H0Z" fill="#2f9bdc"/>
+      <path d="M0 270 Q100 250 200 272 T400 262 V300 H0Z" fill="#fff"/></svg>
+      <figcaption>🌊 Ombak yang bergulung pelan</figcaption>
+    </figure>
+
+    <figure class="photo">
+      <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="a5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#a8dcff"/><stop offset="1" stop-color="#ffe8f1"/></linearGradient></defs>
+      <rect width="400" height="300" fill="url(#a5)"/>
+      <ellipse cx="90" cy="70" rx="55" ry="18" fill="#fff" opacity=".9"/><ellipse cx="300" cy="50" rx="45" ry="14" fill="#fff" opacity=".9"/>
+      <path d="M0 190 Q100 130 220 185 T400 170 V300 H0Z" fill="#9ad9a0"/>
+      <path d="M0 240 Q120 195 250 240 T400 225 V300 H0Z" fill="#6fc784"/>
+      <g fill="#ff7fb1"><circle cx="70" cy="262" r="7"/><circle cx="130" cy="272" r="6"/><circle cx="210" cy="258" r="7"/><circle cx="290" cy="270" r="6"/><circle cx="350" cy="255" r="7"/></g></svg>
+      <figcaption>🌸 Bukit hijau &amp; bunga pink</figcaption>
+    </figure>
+
+    <figure class="photo">
+      <svg viewBox="0 0 400 300" preserveAspectRatio="xMidYMid slice"><defs><linearGradient id="a6" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffb8d4"/><stop offset=".55" stop-color="#ffd9c4"/><stop offset="1" stop-color="#8fd3ff"/></linearGradient></defs>
+      <rect width="400" height="300" fill="url(#a6)"/><circle cx="310" cy="90" r="34" fill="#fff6d5"/>
+      <rect y="190" width="400" height="110" fill="#5fbff7"/>
+      <rect x="0" y="205" width="260" height="10" fill="#c58b64"/>
+      <g fill="#a86f4c"><rect x="30" y="205" width="8" height="55"/><rect x="100" y="205" width="8" height="55"/><rect x="170" y="205" width="8" height="55"/><rect x="240" y="205" width="8" height="55"/></g></svg>
+      <figcaption>🌇 Dermaga kecil di waktu sore</figcaption>
+    </figure>
+
+  </div>
+</section>
+
+<section id="drachin">
+  <div class="title"><h2>Dunia Drachin Kayla</h2><p>Daftar drama China yang pernah kutonton dan tonton duluan</p></div>
+
+  <div class="fav">
+    <div class="card"><b>100/100</b>The Love You Give Me · Fangs of Fortune · Love Beyond the Grave</div>
+    <div class="card"><b>10000/100 💔</b>Till the End of the Moon (sad ending, tidak ada obat)</div>
+    <div class="card"><b>95/100</b>Veil of Shadows</div>
+  </div>
+
+  <div class="tabs">
+    <button class="tab on" data-t="m">💕 Romansa Modern</button>
+    <button class="tab" data-t="k">🏯 Kolosal</button>
+  </div>
+  <div class="dlist" id="dl"></div>
+</section>
+
+<section id="kontak">
+  <div class="title"><h2>Mari Terhubung</h2><p>Boleh sapa aku di mana saja</p></div>
+  <div class="contact">
+    <a href="https://instagram.com/jihkyl_" target="_blank" rel="noopener"><small>Instagram</small><b>@jihkyl_</b></a>
+    <div class="cp"><small>Email</small><b>email@jihanmakayla50.com</b><button class="copy" type="button" data-copy="email@jihanmakayla50.com">Salin</button></div>
+    <div class="cp"><small>Discord</small><b>keyya_lynn</b><button class="copy" type="button" data-copy="keyya_lynn">Salin</button></div>
+    <a href="https://x.com/kmyjihya" target="_blank" rel="noopener"><small>X (Twitter)</small><b>@kmyjihya</b></a>
+    <a href="https://youtube.com/@kayl_lyn" target="_blank" rel="noopener"><small>YouTube</small><b>@kayl_lyn</b></a>
+  </div>
+</section>
+
+<footer>
+  🌸 Dibuat dengan cinta oleh Jihan Makayla Huwaida (Kayla) 🌊<br>
+  <small>© 2026 · Pantai, kue, dan karya tangan</small>
+</footer>
+
+<script>
+const modern=[
+["Be Passionately in Love","2025","Wang Anyu, Liu Haocun"],
+["Bloom Life","2026","Li Landi, Guo Junchen"],
+["Derailment","2023","Lin Yi, Liu Haocun","90/100"],
+["Dazzling","2026","Zhang Zhating, Li Yunrui, Guan Xiaotong"],
+["Falling Into Your Smile","2021","Xu Kai, Cheng Xiao","75/100"],
+["Love Is Sweet","2020","Luo Yunxi, Bai Lu"],
+["Love Between Lines","2026","Chen Xingxu, Lu Yuxiao"],
+["Love Has Fireworks","2026","Tin Jianci, Wang Curan"],
+["Never Ending Summer","2026","Zhou Keyu, Bao Shangen"],
+["Road to Success","2026","Chen Jingke, Yu Shuxin"],
+["Speed and Love","2025","He Yu, Esther Yu"],
+["Shine on Me","2025","Song Weilong, Zhao Jinmai"],
+["The Love You Give Me","2023","Wang Yuwen, Wang Ziqi","100/100"],
+["The First Frost","2025","Bai Jingting, Zhang Ruonan"],
+["Twelve Letters","2025","Zhou Yiran"],
+["When I Fly Towards You","2023","Zhou Yiran, Zhang Miaoyi"],
+["You Are My Desire","2025","Zhou Yiran, Zhuang Dafei"]
+];
+const kolosal=[
+["A Dream Within a Dream","2025","Liu Yunning"],
+["Ashes to Crown","2026","Zhou Yiran, Chen Duling"],
+["Blossom","2024","Li Yunrui, Meng Ziyi"],
+["Blood River","2025",""],
+["Coroner's Diary","2025","Ao Ruipeng, Li Landi"],
+["Fangs of Fortune","2024","Xiao Hou, Chen Duling","100/100"],
+["Fated Hearts","2025","Chen Zheyuan, Li Qin"],
+["Fate Chooses You","2026","Allen Ren, Wang Herun"],
+["Glory","2025","Hou Minghao"],
+["Generation to Generation","2026","Zhou Yiran, Bao Shangen"],
+["How Dare You!?","2026","Cheng Lei, Wang Churan"],
+["Love Game in Eastern Fantasy","2023","Ding Yuxi, Esther Yu"],
+["Love in the Clouds","2025","Hou Minghao, Lu Yuxiao"],
+["Love of the Divine Tree","2025","Deng Wei, Julia Xiang"],
+["Legend of the Female General","2025","Cheng Lei, Zhou Ye"],
+["Love Beyond the Grave","2026","Arthur Chen, Dilraba Dilmurat","100/100 · sad end"],
+["Pursuit of Jade (Zhuyu)","2026","Zhang Linghe, Tian Xiawei","90/100"],
+["Story of Kunning Palace","2023","Zhang Linghe, Bai Lu"],
+["Till the End of the Moon","2023","Luo Yunxi, Bai Lu","10000/100 · sad end"],
+["The Eternal Fragrance","2026","Song Weilong, Ju Jingyi"],
+["The Unclouded Soul","2025–2026","Hou Minghao"],
+["The First Jasmine","2026","Cheng Lei, Bai Lu"],
+["Unveil: Jadewind","2026","Wang Xingyue, Bai Lu"],
+["Veil of Shadows","2026","Tian Jiarui, Ju Jingyi, Joseph Zeng, Chen Duling","95/100"]
+];
+const dl=document.getElementById('dl');
+function render(k){
+  const data=k==='k'?kolosal:modern;
+  dl.innerHTML=data.map(d=>`<div class="d ${k==='k'?'k':''}">${d[3]?`<span class="r">${d[3]}</span>`:''}<b>${d[0]}</b><small>${d[1]}${d[2]?' · '+d[2]:''}</small>${d[4]?`<br><span class="e">${d[4]}</span>`:''}</div>`).join('');
+}
+document.querySelectorAll('.tab').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('.tab').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on');render(b.dataset.t==='k'?'k':'m');
+});
+render('m');
+document.querySelectorAll('.copy').forEach(b=>b.onclick=()=>{
+  const t=b.dataset.copy;
+  const done=()=>{b.textContent='Tersalin';setTimeout(()=>b.textContent='Salin',1600)};
+  try{navigator.clipboard.writeText(t).then(done,()=>{const r=document.createRange();r.selectNodeContents(b.parentNode.querySelector('b'));const x=getSelection();x.removeAllRanges();x.addRange(r)})}catch(e){}
+});
+</script>
+
+
+</body></html>
